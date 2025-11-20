@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    font-family: "Poppins",sans-serif;
+}
+.img {
+    width: 32%;
+    height: 100%;
+    
+}
+.imagesbox {
+    position:absolute;
+    display: flex;
+    
+    
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    top:250px;
+}
+.photos {
+    width: 80px;
+    padding-left: 20px;
+    height: 30px;
+}
+.iconakar {
+    width: 20px;
+    height: 13px;
+    padding-bottom: 2px;
+}
+.report {
+    width: 70px;
+    padding-left: 25px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top:60px;
+    height: 420px;
+    width: 250px;
+    
+ }
+    
+.heading {
+padding-top: 7px;
+color: #212121;
+font-size: 18px;
+font-weight: bold;
+}
+
+
+.headingbox {
+    display: flex;
+    flex-direction: row;
+    font-size: 7px;
+    gap: 10px;
+    font-weight: 500;
+    margin-left: 8px ;
+    
+
+}
+    
+
+.arrows {
+    width: 25px;
+    padding-top: 4px;
+}
+.additionaltext {
+    font-size: 10px;
+    padding-top: 13px;
+    color:#949494; opacity: 0,5;
+    height: 60px;
+    row-gap: 3px;
+    line-height: 16px;
+
+    
+}
+.formtext {
+    font-size: 11px;
+    font-weight: 100;
+    margin-left: 5px;
+    padding-top:10px;
+}
+.input {
+    width: 250px;
+    height: 35px;
+    margin-top: 8px;
+    opacity: 0.7;
+    padding-left: 8px;
+    font-size: 10px;
+}
+.submit {
+    width: 250px;
+    height: 35px; 
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    background-color: #4443FF;
+    color: #fffffff3; font-weight: bold; 
+}
+.asterisk {
+    color: red;
+}
+.google {
+     width: 250px;
+    height: 35px; 
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    font-size: 11px;
+    color: #4443FF;
+    font-weight: bold;
+}
+.googleimg {
+    width: 20px;
+}
+
+.lasttext {
+    font-size: 9px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6; color: #949494;
+}
+.login {
+    text-decoration: underline; 
+    color: #4443FF;
+    font-weight: bold;
+}
+
+
+
+
